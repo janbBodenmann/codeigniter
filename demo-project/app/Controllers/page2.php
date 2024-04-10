@@ -2,12 +2,11 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class page2 extends BaseController
 {
     public function index(): string
     {
         echo view('navbar');
-
-        return view('Home');
+        return view('page2');
     }
 }
