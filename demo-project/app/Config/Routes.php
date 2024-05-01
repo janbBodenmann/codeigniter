@@ -11,4 +11,4 @@ $routes->get('/', 'Home::index');
 $routes->get('/page1','page1::index');
 $routes->get('/page2', [page2::class,'index']);
 
-$routes->resource('api/v1/cars');
+$routes->resource('api/v1/cars', ['filter' => 'check_api_key']);

@@ -6,7 +6,7 @@ use CodeIgniter\Database\Migration;
 
 class Cars extends Migration
 {
-    public function up()
+    public function up() 
     {
         $this->db->query("CREATE TABLE cars
         (
