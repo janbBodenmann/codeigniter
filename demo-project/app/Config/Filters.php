@@ -35,6 +35,7 @@ class Filters extends BaseFilters
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
         'check_api_key' => \App\Filters\CheckAPIKey::class
+        
     ];
 
     /**
