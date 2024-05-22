@@ -18,4 +18,6 @@ service('auth')->routes($routes);
 
 // app/Config/Routes.php
 $routes->post('auth/jwt', '\App\Controllers\Auth\LoginController::jwtLogin');
+$route['send-email'] = 'EmailController/sendEmail';
+
 
